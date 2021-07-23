@@ -26,7 +26,7 @@ division, else they will be in the open division.
     beyond the diagnostic output included on the scoreboard if an error is
     encountered in scoring your predictions.
 5.  Interim scoring may employ forms of randomization (e.g. bootstrapping) to reduce the temptation to rely on the score board to tune the models.  The final scores will use all the data.
-4.  Competition runs through 11:59 PM EDT 22-August-2020.  The predictions each team has committed to their repository at that time will be used to determine their final score.
+4.  Competition runs through 11:59 PM EDT 22-August-2021.  The predictions each team has committed to their repository at that time will be used to determine their final score.
 
 # Data
 
