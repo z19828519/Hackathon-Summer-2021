@@ -44,4 +44,5 @@ division, else they will be in the open division.
 1.  Predictions will be scored based on mean square error, lower
 values are better.
 
+Winning teams will have the opportunity to present their solutions at a meeting of participants and faculty this fall.
 <!-- [**Scoreboard**](https://rochester-biomedical-ds.github.io/Hackathon-Summer-2021/Leaderboard.html) -->
