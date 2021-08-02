@@ -28,12 +28,12 @@ division, else they will be in the open division.
 5.  Interim scoring may employ forms of randomization (e.g. bootstrapping) from the test data set.  The final scores will use all the data and not be randomized.
 4.  Competition runs through 11:59 PM EDT 22-August-2021.  The predictions each team has committed to their repository at that time will be used to determine their final score.
 
+<!--# Data
 
-<!-- # Data
-
-*  Training data are [here](train_data/).  These data include [the labels](train_data/severity_score_train.txt) that you need to predict
-*  Test data are [here](test_data/).  Your predictions should be in the order of the `subject_id`s [listed here](prediction/prediction.csv) -- no join is performed on the `subject_id` column.
---> 
+*  Training data are [here](train_data/).  The label you are to predict is `age` and is available in [train_data/train_labels.csv](train_data/train_labels.csv).  The features available for prediction are in [train_data/train_expression.csv.gz](train_data/train_expression.csv.gz)--rows are samples and are in the same order as train_labels.csv.  Columns are features.   [train_data/train_features_names.csv](train_data/train_features_names.csv) contain gene symbol names for all the features.  The data are also available as an R [SummarizedExperiment](https://bioconductor.org/packages/release/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html), [train_data/train_summarized_experiment.rds](train_data/train_summarized_experiment.rds).
+*  Test data are [here](test_data/), and are the same format as train data.  
+*  Your predictions should be in the order of the `sample_id`s [listed here](prediction/prediction.csv) -- no join is performed on the `sample_id` column.
+-->
 
 # Data Description
 
