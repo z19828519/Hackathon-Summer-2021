@@ -1,13 +1,13 @@
 # University of Rochester Biomedical Data Science Hackathon Summer 2021
 
-*  The training and test data will be posted to this repository at **noon EDT 17-August-2021.**  
-*  Each team must have a github handle associated with it in order to participate.  Make sure you edit your registration or email the organizers to provide this, if you haven't yet.
-<!-- Data are now live. -->
+**Data are now live.  Good luck!**
+<!-- [**Scoreboard**](https://rochester-biomedical-ds.github.io/Hackathon-Summer-2021/Leaderboard.html) -->
+
 
 # Logistics
 
 <!-- 0.   Registration is open until 5PM Sunday 8/15.  Teams can consist of up to 4 people. Register by using the google form. -->
-
+0.   Each team must have a github handle associated with it in order to participate.  Make sure you edit your registration or email the organizers to provide this, if you haven't yet.
 1.   You may add team members up
 to noon EDT on 8/19 by editing your response to the google form or emailing the organizers.
 2.  Teams of entirely undergraduates will be in the undergraduate
@@ -31,12 +31,11 @@ division, else they will be in the open division.
 5.  Interim scoring may employ forms of randomization (e.g. bootstrapping) from the test data set.  The final scores will use all the data and not be randomized.
 4.  Competition runs through 11:59 PM EDT 22-August-2021.  The predictions each team has committed to their repository at that time will be used to determine their final score.
 
-<!--# Data
+# Data
 
 *  Training data are [here](train_data/).  The label you are to predict is `age` and is available in [train_data/train_labels.csv](train_data/train_labels.csv).  The `group` covariate indicates what cohort (study) the `sample_id` was from.  The features available for prediction are in [train_data/train_expression.csv.gz](train_data/train_expression.csv.gz)--rows are samples and are in the same order as train_labels.csv.  Columns are features.   [train_data/train_features_names.csv](train_data/train_features_names.csv) contain gene symbol names for all the features.  The data are also available as an R [SummarizedExperiment](https://bioconductor.org/packages/release/bioc/vignettes/SummarizedExperiment/inst/doc/SummarizedExperiment.html), [train_data/train_summarized_experiment.rds](train_data/train_summarized_experiment.rds).
 *  Test data are [here](test_data/), and are the same format as train data.  
 *  Your predictions should be in the order of the `sample_id`s [listed here](prediction/prediction.csv).  The first column will be examined, regardless of column name.  No join is performed on the `sample_id` column.
--->
 
 # Data Description
 
@@ -51,4 +50,3 @@ values are better.
 1.  In order to claim your prize, you will need to fill out a post-competition survey.
 
 In addition, winning teams will have the opportunity to present their solutions at a meeting of participants and faculty this fall.
-<!-- [**Scoreboard**](https://rochester-biomedical-ds.github.io/Hackathon-Summer-2021/Leaderboard.html) -->
